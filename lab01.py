@@ -6,7 +6,7 @@ path = "dataset_phishing.csv"
 
 data = pd.read_csv(path)
 
-print(data.columns)
+data.head()
 
 'ip'
 'nb_www', 'nb_com','nb_dslash', 'http_in_path', 
